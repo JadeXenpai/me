@@ -30,21 +30,16 @@ But it must have the following features:
 </head>
 <body>
 
-  <script>
-    function play() {
-      var audio = document.getElementById("audio");
-      audio.play();
-    }
-
-  </script>
+  
   <div class="container">
     <img src="./assets/images/drive-elevator-scene.gif" alt="gosling"/>
    
 
       
       <h1>Are We Destined to die alone? </h1>  
-      <input class="button-27" type="button" value="Yes ?" onclick="play()">
-      <audio id="audio" src="./assets/music/03 A Real Hero (feat. Electric Youth).mp3"></audio>
+      <input class="button-27" type="button" value="REAL ?" id="toggleButton">
+      <audio id="audio" src="./assets/music/03 A Real Hero (feat. Electric Youth).mp3" preload="auto"></audio>
+       <script src="script.js"></script>
       
     <p>I don't sit in while you're running it down. I don't carry a gun. I drive.</p>
 
